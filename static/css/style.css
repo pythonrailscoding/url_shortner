@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    background: linear-gradient(90deg, rgba(54,217,182,1) 0%, rgba(32,152,126,1) 43%, rgba(0,212,255,1) 100%);
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 2px;
+    box-shadow: 12px 15px 10px 0 rgba(0, 0, 0, 0.75);
+    margin-left: 250px;    
+    margin-right: 250px;
+    margin-top: 50px;
+}
+
+.container {
+    padding: 50px;
+}
+
+#crd {
+    box-shadow: none;
+    height: 40px;
+    color: #fff;
+    background-color: rgba(0, 0, 255, 0.6);
+}
+
+.text_crd {
+    padding-left: 10px; 
+    padding-right: 10px; 
+    padding-top: 7px;
+}
+
+#wht {
+    height: 185px;
+    border-style: solid;
+}
+
+input {
+    width: 100%;
+    margin-bottom: 10px;
+    border-color: rgba(0, 0, 255, 0.8);
+}
+
+#link {
+    width: 100%;
+}
+
+.btn {
+    width: 100.5%;
+    font-weight: bold;
+    background-color: rgba(0, 0, 255, 0.3);
+    margin-right: 100px;
+    padding-right: 4px;
+}
+
+.btn:hover {
+    width: 100.5%;
+    font-weight: bold;
+    color: #fff;
+    background-color: rgba(0, 0, 255, 0.8);
+}
+
+
+fieldset {
+    border: 2px solid #000;
+    height: 80px;
+}
+
+#out_url {
+    padding-left: 50px;
+    color: rgba(255, 0, 0, 0.8);
+    text-decoration: none;
+}
+
+

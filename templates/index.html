@@ -1,0 +1,45 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Url-Shortner</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+    <div class="card">
+        <div class="container">
+            <div id="crd">
+                <div class="text_crd">
+                    Url-Shortner
+                </div>
+            </div>
+            <br>
+            <div id="wht">
+                <div class="container">
+                    <form id="post-form">
+                        {% csrf_token %}
+                        <input type="url" required name="link" id="link" placeholder="Enter the URL here" id="tar">
+                        <input type="submit" value="Get Url" class="btn">
+                    </form>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="card">
+            <div class="container">
+                <div id="output">
+                    <fieldset>
+                        <legend id="leg">Shortened URL</legend>
+                        <br>
+                        <font id="out_url"></font>
+                      </fieldset>
+                    </div>
+                </div>
+            </div>
+    <script type="text/javascript" src="{% static 'js/tool.js' %}"></script>
+</body>
+</html>
